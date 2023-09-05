@@ -24,7 +24,7 @@ RUN mkdir -p /space \
     && chown -R ${SILVERBULLET_USERNAME}:${SILVERBULLET_USERNAME} /deno-dir \
     && chmod +x /tini \
     && apt update \
-    && apt install -y git mercurial \
+    && apt install -y git mercurial ssh-client \
     && echo "**** cleanup ****" \
     && apt-get -y autoremove \
     && apt-get clean  \

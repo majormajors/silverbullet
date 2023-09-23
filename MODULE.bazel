@@ -1,0 +1,4 @@
+module(
+    name = "md_silverbullet",
+    version = "0.4.0",
+)
